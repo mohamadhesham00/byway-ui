@@ -18,7 +18,7 @@ export const CourseCard = () => {
           <img
             src={course}
             alt="Course"
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "100%", height: "auto", borderRadius: "0.5rem" }}
           />
           <span
             style={{

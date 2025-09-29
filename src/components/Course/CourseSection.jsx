@@ -2,7 +2,7 @@ import { CourseCard } from "./CourseCard";
 export const CourseSection = ({ Title }) => {
   return (
     <>
-      <div className="container mt-5">
+      <div className="mt-5">
         <div
           style={{
             display: "flex",
