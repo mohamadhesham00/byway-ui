@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 #root {
-  max-width: 1280px;
+  width: 95%;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem 1rem 0rem 1rem;
   text-align: center;
+  font-family: "Inter", sans-serif;
 }
 
 .logo {
@@ -86,7 +88,6 @@ li {
   height: 40px;
 }
 .main-text {
-  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: Semi Bold;
   font-size: 18px;
@@ -94,7 +95,6 @@ li {
   letter-spacing: 0%;
 }
 .sub-text {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 14px;
@@ -119,4 +119,27 @@ li {
   width: 100%;
   height: auto;
   object-position: top;
+}
+
+.auth-btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+}
+.w-40 {
+  width: 40% !important;
+}
+
+.main-btn {
+  background-color: #020617;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 24px;
+  text-align: center;
+}
+.auth-input {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem;
 }
